@@ -7,10 +7,11 @@ import com.app.global.error.exception.BusinessException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import springfox.documentation.annotations.ApiIgnore;
 
 import javax.validation.Valid;
 
-
+//@ApiIgnore
 @RestController
 @RequestMapping("/api/exception")
 public class ExceptionTestController {
